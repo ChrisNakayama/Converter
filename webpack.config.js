@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Doom Watch',
+      title: 'FridayProjectSix',
       template: './src/index.html',
       inject: 'body'
     }),
