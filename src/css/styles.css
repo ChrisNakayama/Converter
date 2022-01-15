@@ -1,0 +1,16 @@
+body {
+  background-color:rgb(110, 214, 206);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-field {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+h2, p {
+  position:relative;
+  margin-top: 10%;
+  margin-left: 40%;
+}
