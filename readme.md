@@ -1,4 +1,4 @@
-# _{Currency Exchange Rates}
+# _{Converter}
 
 ## Description _This project allows a user to input US Dollars and convert the value into one of five currencies._
 
