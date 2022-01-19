@@ -19,7 +19,8 @@ function roundToCents(dollars) {
 
 
 function getElements(response) {
-  if (response) {
+  if (response.conversion_rates) {
+
     conversionIndex = response.conversion_rates;
     const money =  $('#money').val();
     const currency = $('#foreign-currency').val();
@@ -36,9 +37,10 @@ function getElements(response) {
 
 $('document').ready(function () {
   $('button#show-conversion').click(function () {
+    event.preventDefault();
     CurrencyExchange.convert()
       .then(function (response) {
-        getElements(response);
+        getElements(response).show();
       });
   });
 });
